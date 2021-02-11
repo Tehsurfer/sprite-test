@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <svg-sprite/>
+    <svg-sprite-color/>
     <img alt="Vue logo" src="@/../assets/logo.png">
     <HelloWorld msg="Welcome to the svg-sprite test, a svg should show below"/>
     <svg-icon icon="fullScreen" class="example-icon"/>
@@ -8,9 +8,8 @@
 </template>
 
 <script>
-import one from '@abi-software/svg-sprite'
 import HelloWorld from './components/HelloWorld.vue'
-window.what = one
+
 export default {
   name: 'App',
   components: {
